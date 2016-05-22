@@ -361,13 +361,19 @@ public class Specs {
 		["-"],
 		["show list %m.list",								" ", 12, "showList:"],
 		["hide list %m.list",								" ", 12, "hideList:"],
-		//Stock Market blocks (mod)
+
+		
+		/*----------------------Stock Market Blocks (MOD)-----------------------*/
+		
 		["Search for company %s",                   "", 13, "stockSearch"],
 		["Length of search results",                   "r", 13, "stockLen"],
 		["Loop through each result",                   "c", 13, "stockLoop"],
 		["Search result's full name",                   "r", 13, "stockResult"],
 		["Search result's symbol",                   "r", 13, "stockResult"],
 		["Search result's exchange",                   "r", 13, "stockResult"],
+		
+		/*----------------------------------------------------------------------*/
+
 		// obsolete blocks from Scratch 1.4 that may be used in older projects
 		["play drum %n for %n beats",			" ", 98, "drum:duration:elapsed:from:", 1, 0.25], // Scratch 1.4 MIDI drum
 		["set instrument to %n",				" ", 98, "midiInstrument:", 1],
