@@ -370,9 +370,9 @@ public class Specs {
 		["Search for company %s",                   "", 13, "stockSearch","foo"], //Write Description
 		["Length of search results",                   "r", 13, "stockLen"], //Write Description
 		["Loop through each result",                   "c", 13, "stockLoop"], //Write Description
-		["Search result's full name",                   "r", 13, "stockResult"], //Write Description
-		["Search result's symbol",                   "r", 13, "stockResult"], //Write Description
-		["Search result's exchange",                   "r", 13, "stockResult"], //Write Description
+		["Search result's full name",                   "r", 13, "stockResultName"], //Write Description
+		["Search result's symbol",                   "r", 13, "stockResultSymbol"], //Write Description
+		["Search result's exchange",                   "r", 13, "stockResultExchange"], //Write Description
 		
 		/*----------------------------------------------------------------------*/
 		/*----------------------------------------------------------------------*/
