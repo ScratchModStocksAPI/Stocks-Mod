@@ -20,5 +20,10 @@ public class StockPrims {
 	public function addPrimsTo(primTable:Dictionary):void {
 	
 	primTable['stockSearch:']       =primStockSearch;
+	primTable['StockLen']           =primStockLen;
+	primTable['stockLoop']          =primStockLoop;
+	primTable['stockResultName']    =primResultName;
+	primTable['stockResultCymbal']  =primResultCymbal;
+	primTable['stockResultExchange']=primResultExchange;
 	
 	}
